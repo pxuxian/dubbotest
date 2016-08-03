@@ -1,9 +1,11 @@
-package com.youku.dubbo.provider;
+package com.youku.dubbo.consumer;
 
 import java.io.IOException;
 import java.util.List;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.youku.dubbo.provider.DemoService;
 
 public class Consumer {
 
